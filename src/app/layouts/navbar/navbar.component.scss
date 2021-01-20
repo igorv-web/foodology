@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(../../fonts/poppins/Poppins-Black.ttf);
+}
+
+* {
+  font-family: 'Poppins';
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.navigation {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-right: 50px;
+  color: #333333;
+  transition: 0.2 linear;
+}
+
+.sign_in {
+  width: 96px;
+  height: 44px;
+  background-color: white;
+  margin-right: 50px;
+  border: 2px solid #FE724C;
+  border-radius: 22px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FE724C;
+  transition: 0.2s linear;
+}
+
+.bucket {
+  width: 45px;
+  height: 45px;
+  background: #FE724C;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover {
+  color: #FE724C;
+}
+
+.sign_in:hover {
+  background-color: #FE724C;
+  color: white;
+}
+
+.bucket:hover {
+  opacity: 0.4;
+}
