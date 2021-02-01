@@ -25,6 +25,21 @@
   justify-content: space-between;
 }
 
+/* products */
+
+.products {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 35%;
+  display: grid;
+  text-align: center;
+
+  h2 {
+    font-size: xx-large;
+  }
+}
+
 /* menu */
 
 .prod {

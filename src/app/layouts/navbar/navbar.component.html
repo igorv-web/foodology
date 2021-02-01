@@ -1,13 +1,13 @@
 <div class="navbar">
   <div class="container">
-    <a class="name" [routerLink]="[ '/home' ]">Foodology</a>
+    <a class="name" [routerLink]="[ '/home' ]" id="title">Foodology</a>
     <div class="navigation">
       <nav>
         <a [routerLink]="[ '/about' ]" routerLinkActive="active">About</a>
         <a [routerLink]="[ '/foods' ]" routerLinkActive="active">Foods</a>
         <a [routerLink]="[ '/pricing' ]" routerLinkActive="active">Pricing</a>
       </nav>
-      <button class="sign_in">Sign In</button>
+      <button class="sign_in" [routerLink]="[ '/registration' ]" routerLinkActive="active">Sign In</button>
       <div class="bucket">
         <img src="../../../assets/images/navbar/shopping-bag.png" alt="">
       </div>
